@@ -1,0 +1,19 @@
+.header {
+  background-color: #333;
+  padding: 16px;
+}
+
+.titres {
+  display: flex;
+  justify-content: center;
+}
+
+.titres a {
+  color: white;
+  text-decoration: none;
+  padding: 0 16px;
+}
+
+.titres a:hover {
+  text-decoration: underline;
+}
