@@ -35,19 +35,19 @@
 
        <div class="card history">
          <h2>History</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula turpis et libero pretium mollis. Cras sit amet odio nec justo consectetur bibendum.</p>
+         <p>New World was created in 2021 and is a merging of two old servers : New York Roleplay and Plugin France. After the merge, it was led by Lofuzi, Mvgos and Mylann. After leaving the project to focus in their personal life, Mvgos is now the only founder of New World.</p>
        </div>
     
 
        <div class="card server-presentation">
          <h2>Server Presentation</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula turpis et libero pretium mollis. Cras sit amet odio nec justo consectetur bibendum.</p>
+         <p>New World is a roleplay server on FiveM, based on the map of GTA 4. </p>
        </div>
 
 
        <div class="card staff-team">
          <h2>Staff Team</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vehicula turpis et libero pretium mollis. Cras sit amet odio nec justo consectetur bibendum.</p>
+         <p>New World staff team consists of GameMasters, whom controls the game from inside, a staff team to resolve any problem you might ecounter in game, and a support team to resolve problems on the discord.</p>
        </div>
    </div>
 
@@ -57,15 +57,15 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1Y7GRMbg2XM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div class="faq-container">
-          <h2>Frequently Asked Questions</h2>
-        <div class="faq">
-          <h3>Comment accéder au serveur?</h3>
-            <p>Le serveur est en whitelist, vous devrez donc remplir un formulaire puis passer un entretien pour pouvoir y jouer.</p>
+      <div class="slideshow-container">
+        <p class="slideshow-text">GTA 4 est un jeu vidéo representé dans la ville de New York. On peut ainsi admirer dans le jeu les monuments célèbres de New York, comme ici Times Square.</p>
 
-          <h3>Quelle map utilisez-vous ?</h3>
-            <p>Notre plateau se trouve sur New York, alias Liberty City.</p>
+        <div class="mySlides fade">
+          <img src="images/ny-timesquare.jpeg" alt="Image 1">
+        </div>
 
+        <div class="mySlides fade">
+          <img src="images/gta-timesquare.jpeg" alt="Image 2">
         </div>
       </div>
 
@@ -78,6 +78,24 @@
       <p>Copyright &copy; 2023 New World Roleplay Server. All Rights Reserved.</p>
     </div>
   </footer>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      const slides = document.getElementsByClassName('mySlides');
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = 'block';
+      setTimeout(showSlides, 3000); // Change image every 3 seconds
+    }
+  </script>
 
 </body>
 </html>
