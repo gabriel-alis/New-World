@@ -1,0 +1,38 @@
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.slideshow-text {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+}
+
+.mySlides img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

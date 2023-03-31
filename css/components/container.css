@@ -8,14 +8,13 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  flex: 1; /* Add this line to make card-container take up available space */
+  flex: 1;
 }
 
 .right-container {
-  /* Add this new class for the right-container */
   display: flex;
   flex-direction: column;
   gap: 32px;
-  flex: 1; /* Add this line to make right-container take up available space */
-  align-items: center; /* Add this line to center faq-container */
+  flex: 1; 
+  align-items: center; 
 }
